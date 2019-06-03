@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Profit Calculator</string>
+    <string name="title_activity_sales">SalesActivity</string>
 </resources>

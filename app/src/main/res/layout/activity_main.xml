@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="horizontal">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+            <!-- Button layout -->
+            <GridLayout
+                    android:id="@+id/buttonGrid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3">
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_sale"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Sales"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_profit"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Gross\nProfit"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_simple"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Simple\nInterest"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_tax"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Tax"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_compound"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Compound\nInterest"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:padding="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/ic_settings"/>
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Settings"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
